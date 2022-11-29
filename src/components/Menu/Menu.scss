@@ -30,12 +30,12 @@
     letter-spacing: 0.01em;
     padding: 5px;
     display: block;
-    color: #000000;
+    color: $black;
     margin-bottom: 52px;
     width: auto;
     background: transparent;
     &:hover {
-        background: $light;
+        background: #c6c6c6d0;
     }
 }
 .menu__list {
@@ -66,6 +66,11 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+    border-radius: 6px;
+    cursor: pointer;
+    &:hover {
+        background: #c6c6c6d0;
+    }
 }
 .user__info {
     margin-left: 12px;

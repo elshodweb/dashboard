@@ -78,3 +78,15 @@ h6 {
     font-weight: 400;
 }
 /*--------------------*/
+input {
+    &:hover,
+    &:focus {
+        box-shadow: 1px 1px 3px 0px #878787;
+    }
+}
+select {
+    &:hover,
+    &:focus {
+        box-shadow: 1px 1px 3px 0px #878787;
+    }
+}

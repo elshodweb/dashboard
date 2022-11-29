@@ -14,11 +14,15 @@
     justify-content: center;
     gap: 14px;
 }
-.link.active,
-.link:hover {
+.link.active {
     color: $white;
     background: $blue;
     .arrow {
         display: none;
     }
+}
+
+.link:hover {
+    color: $gray;
+    background: #e4e4e4d0;
 }

@@ -24,6 +24,9 @@
         width: 24px;
         height: 24px;
     }
+    &:hover {
+        opacity: 0.6;
+    }
 }
 .header__label {
     position: relative;
