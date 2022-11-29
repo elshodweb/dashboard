@@ -51,7 +51,7 @@ function Courses() {
       date: "December 20, 2022",
       count: "O’quvchilar soni : 6",
       degre: "O’rtacha o’z",
-      type: "blue",
+      type: "orange",
       prasent: "70%",
     },
     {
@@ -60,7 +60,7 @@ function Courses() {
       date: "December 20, 2022",
       count: "O’quvchilar soni : 6",
       degre: "O’rtacha o’z",
-      type: "orange",
+      type: "blue",
       prasent: "70%",
     },
   ];

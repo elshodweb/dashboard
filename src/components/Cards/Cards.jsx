@@ -1,3 +1,4 @@
+import { Pagination } from "@mui/material";
 import React from "react";
 import BasicTable from "../Table/Table";
 import search from "./../../assets/icons/header/search.svg";
@@ -29,6 +30,13 @@ function Cards() {
       </div>
       <div className="table__main">
         <BasicTable />
+        <Pagination
+          style={{ marginLeft: "auto", marginTop: "20px" }}
+          color={"primary"}
+          count={40}
+          variant="outlined"
+          shape="rounded"
+        />
       </div>
     </div>
   );
