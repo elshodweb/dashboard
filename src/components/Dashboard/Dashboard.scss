@@ -1,3 +1,54 @@
+@import "./../../sass/variables.scss";
 .dashboard {
     width: 100%;
+    padding-top: 150px;
+}
+.charts {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.years,
+.circle {
+    max-width: 700px;
+    background: $white;
+    padding: 27px 37px;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    border-radius: 30px;
+}
+.years__title,
+.circle__title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+
+    color: $black;
+}
+.circle__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+
+    color: $gray;
+}
+.years__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.years__select {
+    padding: 8px;
+    background: #f9fbff;
+    border-radius: 10px;
+    color: $gray;
+    padding-left: 20px;
 }
