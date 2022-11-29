@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.header__hi {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.header__function {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.header__button {
+    background: transparent;
+    img {
+        width: 24px;
+        height: 24px;
+    }
+}
+.header__label {
+    position: relative;
+    img {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        left: 8px;
+    }
+}
+.header__input {
+    padding: 8px 8px 8px 40px;
+    background: #ffffff;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    border-radius: 12px;
+}

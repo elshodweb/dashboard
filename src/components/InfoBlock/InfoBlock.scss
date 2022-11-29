@@ -1,0 +1,76 @@
+@import "./../../sass/variables.scss";
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 25px 5px;
+    background: $white;
+    border-radius: 30px;
+    margin-bottom: 34px;
+    &.students {
+        justify-content: space-around;
+    }
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card__img {
+    width: 84px;
+    height: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 50%;
+    margin-right: 12px;
+    &.red {
+        background: linear-gradient(201.18deg, #ffa3cf 3.14%, #ffd5f3 86.04%);
+    }
+    &.green {
+        background: linear-gradient(201.18deg, #d3ffe7 3.14%, #effff6 86.04%);
+    }
+    img {
+        width: 100%;
+    }
+}
+
+.card__body {
+}
+.card__title {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+
+    color: #acacac;
+    margin-bottom: 4px;
+}
+.card__count {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: -0.01em;
+
+    color: $bold;
+    margin-bottom: 6px;
+}
+.card__info {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    letter-spacing: -0.01em;
+    &.red {
+        color: $red;
+    }
+    &.green {
+        color: $green;
+    }
+}

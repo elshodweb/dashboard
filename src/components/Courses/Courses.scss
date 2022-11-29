@@ -1,0 +1,59 @@
+@import "./../../sass/variables.scss";
+
+.courses {
+    padding: 35px 45px;
+    background: $white;
+    border-radius: 40px 40px 0px 0px;
+}
+.courses__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.courses__title {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+.courses__date {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    color: #000000;
+}
+.courses__infos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 14px;
+    margin-bottom: 32px;
+}
+.courses__count {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 34px;
+
+    color: #000000;
+}
+.courses__name {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #838383;
+}
+.courses__list {
+    display: flex;
+    align-items: stretch;
+    gap: 30px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    & > * {
+        flex: 1 1 auto;
+    }
+}

@@ -1,0 +1,24 @@
+@import "./../../sass/variables.scss";
+.link {
+    padding: 11px;
+    color: $gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    margin-bottom: 18px;
+}
+.children {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+}
+.link.active,
+.link:hover {
+    color: $white;
+    background: $blue;
+    .arrow {
+        display: none;
+    }
+}

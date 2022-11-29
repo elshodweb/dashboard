@@ -1,0 +1,57 @@
+@import "./../../sass/variables.scss";
+
+.table {
+    width: 100%;
+    background: $white;
+    border-radius: 30px;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    padding: 30px 40px;
+}
+.table__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.table__title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+
+    color: #000000;
+}
+.table__subtitle {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+
+    color: #16c098;
+}
+.table__label {
+    position: relative;
+    img {
+        position: absolute;
+        top: 50%;
+        transform: translate(0, -50%);
+        left: 8px;
+    }
+    & + & {
+        margin-left: 16px;
+    }
+}
+.table__input {
+    padding: 8px 8px 8px 40px;
+    background: #f9fbff;
+    border-radius: 10px;
+}
+.table__select {
+    padding: 8px;
+    background: #f9fbff;
+    border-radius: 10px;
+    color: $gray;
+}

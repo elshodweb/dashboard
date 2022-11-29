@@ -1,0 +1,42 @@
+.table__bd {
+    box-shadow: none !important;
+    border: none;
+    .component-table__header {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.01em;
+        color: #b5b7c0;
+    }
+    .component-table__item {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.01em;
+        color: #292d32;
+    }
+    .component-table__row {
+        cursor: pointer;
+        &:hover {
+            box-shadow: 5px 5px 20px 1px #c2c2c2;
+        }
+    }
+    .Active {
+        background: rgba(22, 192, 152, 0.38);
+        border: 1px solid #00b087;
+        border-radius: 4px;
+        color: #008767;
+        padding: 4px 20px;
+        width: 84.21px;
+        display: block;
+    }
+    .Inactive {
+        background: #ffc5c5;
+        border: 1px solid #df0404;
+        border-radius: 4px;
+        color: #df0404;
+        display: block;
+        width: 84.21px;
+        padding: 4px 20px;
+    }
+}

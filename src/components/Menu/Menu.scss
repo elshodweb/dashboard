@@ -1,0 +1,99 @@
+@import "./../../sass/variables.scss";
+
+.menu {
+    width: 306px;
+    padding: 36px 28px 70px;
+    background: $white;
+    height: auto;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    strong.open {
+        display: none;
+    }
+    span.open {
+        display: none;
+    }
+    &.open {
+        width: auto;
+        max-width: 305px;
+    }
+}
+.menu__logo {
+    font-weight: 600;
+
+    font-size: 26px;
+    border-radius: 6px;
+    line-height: 39px;
+    letter-spacing: 0.01em;
+    padding: 5px;
+    display: block;
+    color: #000000;
+    margin-bottom: 52px;
+    width: auto;
+    background: transparent;
+    &:hover {
+        background: $light;
+    }
+}
+.menu__list {
+    flex: 1 0 auto;
+}
+.menu__timer {
+    max-width: 250px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(107.91deg, #eaabf0 7.37%, #4623e9 95.19%);
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 100%;
+    /* identical to box height, or 32px */
+
+    letter-spacing: -0.01em;
+
+    color: #ffffff;
+    margin-bottom: 32px;
+    &.open {
+        display: none;
+    }
+}
+.menu__user {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.user__info {
+    margin-left: 12px;
+    &.open {
+        display: none;
+    }
+}
+.user__name {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #000000;
+}
+.user__prof {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #757575;
+}
+.user__arrow {
+    margin-left: auto;
+    &.open {
+        display: none;
+    }
+}

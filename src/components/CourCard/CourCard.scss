@@ -1,0 +1,95 @@
+@import "./../../sass/variables.scss";
+.cours {
+    padding: 18px 22px;
+    width: 287.57px;
+    border-radius: 25px;
+    cursor: pointer;
+    &.orange {
+        background: #fee4cb;
+    }
+    &.blue {
+        background: #dbf6fd;
+    }
+    &:hover {
+        opacity: 0.7;
+        box-shadow: 5px 5px 20px 1px #c2c2c2;
+    }
+}
+.cours__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.cours__date {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+
+    color: #6f6f6f;
+}
+.cours__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+
+    color: #000000;
+    margin-bottom: 7px;
+}
+.cours__subtitle {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #6f6f6f;
+    margin-bottom: 18px;
+}
+.cours__degre {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #242424;
+    padding-left: 5px;
+    margin-bottom: 4px;
+}
+.cours__decor {
+    width: 100%;
+    height: 4px;
+    background: #ffffff;
+    border-radius: 27px;
+    margin-bottom: 4px;
+    span {
+        display: block;
+        width: 70%;
+        height: 100%;
+        background: #ff942e;
+        border-radius: 27px;
+    }
+}
+.cours__present {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+
+    color: #242424;
+    margin-bottom: 24px;
+}
+.cours__student {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    img {
+        width: 44px;
+    }
+}
+.cours__student-descr {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    color: #6f6f6f;
+}
