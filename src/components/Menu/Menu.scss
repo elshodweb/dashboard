@@ -21,7 +21,9 @@
 }
 .menu__logo {
     font-weight: 600;
-
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
     font-size: 26px;
     border-radius: 6px;
     line-height: 39px;
