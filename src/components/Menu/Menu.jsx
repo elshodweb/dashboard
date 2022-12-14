@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
 import MenuLink from "../MenuLink/MenuLink";
-import setting from "./../../assets/icons/menu/setting.svg";
-import key from "./../../assets/icons/menu/key.svg";
-import square from "./../../assets/icons/menu/square.svg";
-import user from "./../../assets/icons/menu/user.svg";
-import money from "./../../assets/icons/menu/money.svg";
-import prasent from "./../../assets/icons/menu/prasent.svg";
-import question from "./../../assets/icons/menu/question.svg";
+import { ReactComponent as Setting } from "./../../assets/icons/menu/setting.svg";
+import { ReactComponent as Key } from "./../../assets/icons/menu/key.svg";
+import { ReactComponent as Square } from "./../../assets/icons/menu/square.svg";
+import { ReactComponent as User } from "./../../assets/icons/menu/user.svg";
+import { ReactComponent as Money } from "./../../assets/icons/menu/money.svg";
+import { ReactComponent as Prasent } from "./../../assets/icons/menu/prasent.svg";
+import { ReactComponent as Question } from "./../../assets/icons/menu/question.svg";
 import foto from "./../../assets/icons/menu/foto.svg";
 import down from "./../../assets/icons/menu/down.svg";
 import "./Menu.scss";
@@ -32,7 +32,7 @@ function Menu() {
   return (
     <div className={`menu ${isOpen ? "open" : ""}`}>
       <button onClick={() => setIsOpen(!isOpen)} className="menu__logo">
-        <img src={setting} alt="logo" />
+        <Setting className="icon-black" />
         <strong className={isOpen ? "open" : ""}>Dashboard</strong>
       </button>
       <div className="menu__list">
@@ -42,7 +42,7 @@ function Menu() {
           isActive={path === "dashboard"}
         >
           <div className="children">
-            <img src={key} alt="key" />
+            <Key className="icon" />
             <span className={isOpen ? "open" : ""}>Dashboard</span>
           </div>
         </MenuLink>
@@ -53,7 +53,7 @@ function Menu() {
           isOpen={isOpen}
         >
           <div className="children">
-            <img src={square} alt="square" />
+            <Square className={"icon"} />
             <span className={isOpen ? "open" : ""}>Guruhlar</span>
           </div>
         </MenuLink>
@@ -63,25 +63,25 @@ function Menu() {
           isOpen={isOpen}
         >
           <div className="children">
-            <img src={user} alt="user" />
+            <User className={"icon"} />
             <span className={isOpen ? "open" : ""}>O’quvchilar</span>
           </div>
         </MenuLink>
         <MenuLink isOpen={isOpen}>
           <div className="children">
-            <img src={money} alt="money" />
+            <Money className={"icon"} />
             <span className={isOpen ? "open" : ""}>Dars jadvali</span>
           </div>
         </MenuLink>
         <MenuLink isOpen={isOpen}>
           <div className="children">
-            <img src={prasent} alt="prasent" />
+            <Prasent className={"icon"} />
             <span className={isOpen ? "open" : ""}>Sozlamalar</span>
           </div>
         </MenuLink>
         <MenuLink isOpen={isOpen}>
           <div className="children">
-            <img src={question} alt="question" />
+            <Question className={"icon"} />
             <span className={isOpen ? "open" : ""}>Yordam</span>
           </div>
         </MenuLink>

@@ -29,7 +29,6 @@
     line-height: 39px;
     letter-spacing: 0.01em;
     padding: 5px;
-    display: block;
     color: $black;
     margin-bottom: 52px;
     width: auto;
@@ -37,6 +36,9 @@
     &:hover {
         background: #c6c6c6d0;
     }
+}
+.icon-black {
+    stroke: #000000;
 }
 .menu__list {
     flex: 1 0 auto;

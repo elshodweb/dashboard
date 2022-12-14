@@ -20,9 +20,19 @@
     .arrow {
         display: none;
     }
+
+    .icon {
+        stroke: #fff;
+    }
+    &:hover .icon {
+        stroke: #797979d0;
+    }
 }
 
 .link:hover {
     color: $gray;
     background: #e4e4e4d0;
+}
+.icon {
+    stroke: #797979d0;
 }
